@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class EistHerokuConfiguration {
+public class EistNgrokConfiguration {
     @Bean
     public Hibernate5JakartaModule hibernate5Module() {
         return new Hibernate5JakartaModule();
